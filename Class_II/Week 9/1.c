@@ -11,3 +11,21 @@ abcnde[回车]
 abc[回车]
 de[回车]
 */
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+int main(){
+	int i,j,k;
+	char a[100];
+	gets(a);
+	k=strlen(a);
+	for(i=0;i<k;i++){
+		if(a[i]=='n'){
+			if(a[i-1]!='n')
+				printf("\n");
+		}else
+			printf("%c",a[i]);
+	}
+	if(a[k-1]!='n')
+		printf("\n");
+}
