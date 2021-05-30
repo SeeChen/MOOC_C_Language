@@ -10,3 +10,24 @@ abc[回车]
 输出样例：
 cba[回车]
 */
+#include<stdio.h>
+void reverse(char *str){
+    char temp;
+    char* end = str;
+    if(str){
+        while(*end != '\0')
+            ++end;
+    }
+    --end;
+    while(str < end){
+        temp = *end;
+        *end-- = *str;
+        *str++ = temp;
+   }
+}
+int main(){
+    char text[100];
+    gets(text);
+    reverse(text);
+    puts(text);
+}
