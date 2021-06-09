@@ -36,13 +36,24 @@ int calc(int uuzi[],char srui[],int j){
 				return calc(uuzi,srui,j)-uuzi[j+1];
 				break;
 			case '*':
-				return calc(uuzi,srui,j-1)+uuzi[j]*uuzi[j+1];
+				uuzi[j]=uuzi[j]*uuzi[j+1];
+				for(int i=j;srui[i]!='\n';i++){
+					uuzi[j+1]=uuzi[j+2];
+					srui[j]=srui[j+1];
+				}
+				calc(uuzi,srui,j);
 				break;
 			case '/':
 				if(uuzi[j+1]==0)
-					return calc(uuzi,srui,j-1)+0;
-				else
-					return calc(uuzi,srui,j-1)+uuzi[j]/uuzi[j+1];
+					return calc(uuzi,srui,j-1);
+				else{
+					uuzi[j]=uuzi[j]/uuzi[j+1];
+					for(int i=j;srui[i]!='\n';i++){
+						uuzi[j+1]=uuzi[j+2];
+						srui[j]=srui[j+1];
+					}
+				}
+				calc(uuzi,srui,j);
 				break;
 		}
 	}
