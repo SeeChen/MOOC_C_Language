@@ -13,13 +13,32 @@
 #include <stdio.h>
 int calc(int*,char*,int);
 int main(){
-	int i,ans,uuzi[100];
+	int i,j,k,uuzi[100];
 	char srui[100];
 	for(i=0;;i++){
 		scanf("%d",&uuzi[i]);
 		scanf("%c",&srui[i]);
 		if(srui[i]=='\n')
 			break;
+	}
+	
+	for(j=0;srui[j]!='\n';j++){
+		if(srui[j]=='*'||srui[j]=='/'){
+			if(srui[j]=='*'){
+				uuzi[j]*=uuzi[j+1];
+				for(k=j;srui[k]!='\n';k++){
+					uuzi[k+1]=uuzi[k+2];
+					srui[k]=srui[k+1];
+				}
+			}else if(srui[j]=='/'){
+				uuzi[j]/=uuzi[j+1];
+				for(k=j;srui[k]!='\n';k++){
+					uuzi[k+1]=uuzi[k+2];
+					srui[k]=srui[k+1];
+				}
+			}
+			j--;i--;
+		}
 	}
 	printf("%d",calc(uuzi,srui,i));
 }
@@ -34,26 +53,6 @@ int calc(int uuzi[],char srui[],int j){
 				break;
 			case '-':
 				return calc(uuzi,srui,j)-uuzi[j+1];
-				break;
-			case '*':
-				uuzi[j]=uuzi[j]*uuzi[j+1];
-				for(int i=j;srui[i]!='\n';i++){
-					uuzi[j+1]=uuzi[j+2];
-					srui[j]=srui[j+1];
-				}
-				calc(uuzi,srui,j);
-				break;
-			case '/':
-				if(uuzi[j+1]==0)
-					return calc(uuzi,srui,j-1);
-				else{
-					uuzi[j]=uuzi[j]/uuzi[j+1];
-					for(int i=j;srui[i]!='\n';i++){
-						uuzi[j+1]=uuzi[j+2];
-						srui[j]=srui[j+1];
-					}
-				}
-				calc(uuzi,srui,j);
 				break;
 		}
 	}
