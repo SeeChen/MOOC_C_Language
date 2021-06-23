@@ -1,6 +1,6 @@
 <img src="http://www.jd-tv.com/uploads/allimg/170126/154920H54_0.png" width="100" height="100" alt=""/>
 
-# C Language of BeiJing Institute of Technology MOOC(https://www.icourse163.org/)
+# [C Language of BeiJing Institute of Technology MOOC](https://www.icourse163.org/)
 [About this Code](#About-this-Code)
 
 ## About this Code
