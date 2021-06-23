@@ -1,4 +1,6 @@
-# C Language of BeiJing Institute of Technology MOOC
-*This is the programming assignment code for MOOC of Beijing Institute of Technology, For me convenience of later review.*
+<img src="http://www.jd-tv.com/uploads/allimg/170126/154920H54_0.png" width="100" height="100" alt=""/>
 
-## **NOTICE：The code is not completely correct, if you have better code, please pull requests to me. Thank You!**
+# C Language of BeiJing Institute of Technology MOOC
+-[About this Code](#About-this-Code)
+
+## About this Code 
