@@ -35,6 +35,6 @@ int main(){
                 if(x>'Z'){x='A';}
             }else{x--;if(x<'A'){x='Z';}}
         }
-printf("\n");
+      printf("\n");
     }
 }
