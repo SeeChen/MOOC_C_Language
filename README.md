@@ -10,7 +10,7 @@
 ### About the classification of code files
 &nbsp;&nbsp;&nbsp;&nbsp;-*The code is divided into [Class_I](https://github.com/SeeChen/MOOC_C_Language/tree/main/Class_I) and [Class_II](https://github.com/SeeChen/MOOC_C_Language/tree/main/Class_II) according to the “上” and “下” of the MOOC course.*</br>
 &nbsp;&nbsp;&nbsp;&nbsp;-*In the "Class" file, the code is stored separately according to the number of weeks in the MOOC course.*</br>
-&nbsp;&nbsp;&nbsp;&nbsp;-*Exam codes are stored in the of [Class_I/Exam](https://github.com/SeeChen/MOOC_C_Language/tree/main/Class_I/Exam) and [Class_II/Exam](https://github.com/SeeChen/MOOC_C_Language/tree/main/Class_II/Exam) according to mooc course “上” and “下” respectively.*</br>
+&nbsp;&nbsp;&nbsp;&nbsp;-*Exam codes are stored in the of [Class_I/Exam](https://github.com/SeeChen/MOOC_C_Language/tree/main/Class_I/Exam) and [Class_II/Exam](https://github.com/SeeChen/MOOC_C_Language/tree/main/Class_II/Exam) according to MOOC course “上” and “下” respectively.*</br>
 ***
 ### Contributors
 &nbsp;&nbsp;&nbsp;&nbsp;-*This project exists thanks to all the people who contribute.*</br></br>
