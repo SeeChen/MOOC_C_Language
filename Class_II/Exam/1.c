@@ -16,7 +16,7 @@
 int main(){
 	int m,n,i,sum=0;
 	double s;
-	scanf("%d %d",&m,&n);
+	scanf("%d,%d",&m,&n);
 	for(i=m;i<=n;i++){
 		s=sqrt(i);
 		if(s==(int)s){
