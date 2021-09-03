@@ -1,6 +1,6 @@
 <img src="https://www.emojidaquan.com/Uploads/image/202105/1621219923545111.gif" width="100" height="100" alt=""/>
 
-# C Language of BeiJing Institute of Technology MOOC
+# The 14th class of MOOC BIT C Language programming
 ***
 ### About this Code:
 &nbsp;&nbsp;&nbsp;&nbsp;-*This is Code of MOOC C Language of BIT.*<br/>
