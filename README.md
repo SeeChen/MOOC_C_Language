@@ -1,4 +1,4 @@
-<img src="http://www.jd-tv.com/uploads/allimg/170126/154920H54_0.png" width="100" height="100" alt=""/>
+<img src="https://www.emojidaquan.com/Uploads/image/202105/1621219923545111.gif" width="100" height="100" alt=""/>
 
 # C Language of BeiJing Institute of Technology MOOC
 ***
