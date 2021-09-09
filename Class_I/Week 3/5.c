@@ -9,7 +9,7 @@
 不构成三角形：non-triangle
 一般三角形：triangle
 输入样例：
-2 2 2
+2 2 2 
 输出样例：
 equilateral triangle.
 */
