@@ -33,21 +33,16 @@ int main()
     int i,j;
     char c[100];
     gets(c);
-    for(i=0;c[i]!='\0';i++)
-    {
-        for(j=0;;j++)
-        {
-            if(c[i]==t[j].x)
-            {
+    for(i=0;c[i]!='\0';i++){
+        for(j=0;;j++){
+            if(c[i]==t[j].x){
                 printf("%c",t[j].y);
 				break;
             }
-if(j==8)
-            {
+	if(j==8){
                 printf("%c",c[i]);break;
             }
         }
     }
 	printf("\n");
-    return 0;
 }
