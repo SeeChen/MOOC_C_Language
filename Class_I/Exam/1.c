@@ -9,7 +9,7 @@
 [空格]ZABAZ[回车]
 ABCDCBA[回车]
 输入样例：
-4 X
+4 X 
 输出样例：
    X
   YZY
