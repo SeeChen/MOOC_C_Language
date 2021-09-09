@@ -25,7 +25,7 @@ Not Safe
 Not Safe
 Medium Safe
 Safe[回车]
-*/
+*/ 
 #include <stdio.h>
 #include <string.h>
 void na(char a[]){
