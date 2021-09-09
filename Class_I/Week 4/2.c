@@ -22,6 +22,5 @@ int main()
     day=(((year-1899)*365+leapyear)-(31+30+31+31+30+31+30+31))%7;
     if(day==7)whichday=14;  
     else whichday=14-day;  
-    printf("%d",whichday);  
-    return 0;  
+    printf("%d",whichday);
 }
