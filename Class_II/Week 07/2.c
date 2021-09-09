@@ -41,5 +41,4 @@ struct m{
 	else if(strcmp(a,"2")==0) printf("%g\n",ave[1]);
 	else if(strcmp(a,"3")==0) printf("%g\n",ave[2]);
 	else printf("0\n");
-	return 0;
  }
