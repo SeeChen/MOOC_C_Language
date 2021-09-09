@@ -36,5 +36,4 @@
      for(i=0; i<9; ++i)
          printf("%d,",arr[i]);
      printf("%d\n",arr[i]);
-     return 0;
  }
