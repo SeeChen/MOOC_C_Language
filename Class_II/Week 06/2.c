@@ -84,6 +84,4 @@ int main()
         if(i == 3) printf("\n");
         else printf(",");
     }
- 
-    return 0;
 }
