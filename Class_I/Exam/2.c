@@ -42,5 +42,4 @@ int main(int argc,char *argv[]){
         strcat(a,t);
     }
     puts(a);
-    return 0;
 }
