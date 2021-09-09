@@ -46,5 +46,4 @@ int main() {
         if(max<0) printf("%d\n",max);
         else printf("%d\n",sum);
     }
-    return 0;
 }
