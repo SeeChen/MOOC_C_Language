@@ -69,13 +69,11 @@ char foo( const char* s ){
 int main( void ){
     unsigned n;
     scanf( "%u", &n );
-    while( n-- )
-    {
+    while( n-- ){
         char s[20];
         scanf( "%s", s );
 
-        if( strlen(s) == 15 )
-        {
+        if( strlen(s) == 15 ){
             memmove( s+8, s+6, 10 );
             s[6] = '1';
             if( s[14]=='9' && s[15]=='9' && s[16]>='6' && s[16]<='9' )
@@ -86,8 +84,7 @@ int main( void ){
             s[17] = foo( s );
             puts( s );
         }
-        else
-        {
+        else{
             puts( s[17]==foo(s) ? "Valid" : "Invalid" );
         }
     }
