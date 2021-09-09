@@ -128,5 +128,4 @@ int main()
 	L2 = CreateLinkList();
 	L3 = MergeLinkList(L1,L2);
 	ShowList(L3);
-	return 0;
 }
