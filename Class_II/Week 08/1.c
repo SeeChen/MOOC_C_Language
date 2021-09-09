@@ -80,5 +80,4 @@ int main()
 	LinkList L;
 	L = CreateList(a);
 	Judge(L);
-	return 0;
 }
