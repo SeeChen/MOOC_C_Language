@@ -13,7 +13,6 @@ sum=25[回车]
 sell=8,sell=4,[回车]
 */
 #include <stdio.h>
-
 int n,x,a=0;
 int duck();
 
