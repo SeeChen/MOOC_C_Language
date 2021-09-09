@@ -11,19 +11,14 @@
 14[回车]
 */
 #include <stdio.h>
-
-int DigitSum(int x)
-{
-	if (x > 9)
-	{
+int DigitSum(int x){
+	if (x > 9){
 		return x % 10 + DigitSum(x / 10);
 	}
 	else
 		return x;
 }
-
-int main()
-{
+int main(){
 	int num;
 	scanf("%d",&num);
 	int ret = DigitSum(num);
