@@ -2,6 +2,8 @@
 
 # The 14th class of MOOC BIT C Language programming
 ---
+<a href="LICENSE">![GitHub](https://img.shields.io/github/license/SeeChen/MOOC_C_Language?color=1AA260&label=LICENSE)</a>
+<a href="https://gitter.im/SeeChen" target="_blank">![GitHub](https://img.shields.io/badge/CHAT-GITTER-FF5CF7?style=flat&logo=gitter)</a>
 - [About](#about)
 - [File](#file)
 - [关于](#关于)
@@ -13,8 +15,8 @@
 >- The comment above the code is the title of the code;
 >- The code is not guaranteed to be completely correct, if you have a better code, you can [Pull requests](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) to me;
 >- If you have any questions about the code, you can post a discussion in [Issues](https://github.com/SeeChen/MOOC_C_Language/issues).
-><!--If you want to view the problem-solving ideas, please click [here](https://google.com);
->- For the OJ test result of the code, please check the update information column, update information [Identification](#description).-->
+><!--If you want to view the problem-solving ideas, please click [here](https://google.com);-->
+>- For the OJ test result of the code, please check the update information column, update information [Identification](#description).
 #### File
 >- The code is sorted according to the number of weeks in [MOOC C language](https://www.icourse163.org/course/BIT-20019), which will different from [MOOC C language](https://www.icourse163.org/course/BIT-20019);
 >- Except for the document number, the title is the same as the title used in [MOOC C language](https://www.icourse163.org/course/BIT-20019);
@@ -25,9 +27,9 @@
 >- 这些代码是为了方便我以后自己复习使用;
 >- 代码上方的注释是为该代码的所属题目;
 >- 代码不保证完全正确，如果您有更好的代码，可以向我 [Pull requests](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request);
->- 如果对于代码有任何的问题，可以在 [Issues](https://github.com/SeeChen/MOOC_C_Language/issues) 发表讨论。
-><!--若想查看题目的解题思路，请点击[这里](https://google.com);
->代码的 OJ 测试结果，请查看更新信息一栏,[更新信息标识](#description)。-->
+>- 如果对于代码有任何的问题，可以在 [Issues](https://github.com/SeeChen/MOOC_C_Language/issues) 发表讨论，或在 [Gitter](https://gitter.im/SeeChen) 上私聊。。
+><!--若想查看题目的解题思路，请点击[这里](https://google.com);-->
+>代码的 OJ 测试结果，请查看更新信息一栏,[更新信息标识](#description)
 #### 文件
 >- 代码按照[慕课 C 语言](https://www.icourse163.org/course/BIT-20019)周数进行排序，与[慕课 C 语言](https://www.icourse163.org/course/BIT-20019)的编号会有不同;
 >- 除了文件的编号，标题与[慕课 C 语言](https://www.icourse163.org/course/BIT-20019)中题目所用的标题一致;
@@ -42,3 +44,5 @@ TLE:some test TLE;
 --no tested--:code is not tested;
 --NO CODE--:No code yet;
 ```
+#### LICENSE
+> [MIT](LICENSE) &copy; SeeChen
